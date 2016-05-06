@@ -7,11 +7,12 @@
 	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+
 </head>
 
 
 
-<body>
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
 
 	<!-- Navbar ====================================================== -->
 	<nav class="navbar navbar-inverse navbar-fixed-top">
@@ -24,17 +25,17 @@
 					<span class="icon-bar"></span>
 					<span class="icon-bar"></span>
 				</button>
-				<a href="#" class="navbar-brand">NCH Supplies</a>
+				<a href="#" class="navbar-brand">NCH Supplier</a>
 			</div>
 
 
 			<!-- Menu Items -->
 			<div class="collapse navbar-collapse" id="mainNavBar">
 				<u1 class="nav navbar-nav">
-					<li class="active"><a href="#">Welcome</a></li>
-					<li><a href="#">Overview</a></li>
-					<li><a href="#">About</a></li>
-					<li><a href="#">Contact</a></li>
+					<li class="active"><a href="#myCarousel">Welcome</a></li>
+					<li><a href="#overview">Overview</a></li>
+					<li><a href="#about">About</a></li>
+					<li><a href="#contact">Contact</a></li>
 				</u1>
 			</div>
 		</div>
@@ -93,13 +94,49 @@
 		</a>
 	</div>
 
+
+	<!-- Welcome Title ====================================================== -->
 	<div id="overview" class="text-center">
 		<br><br>
 		<span id="billboard-heading">
 			<h1 class="title">Welcome to NCH Supplier & Services</h1>
-		</div>
+			<br><br>
+
+		</span>
+	</div>
 
 
 
-	</body>
-	</html>
+	<!-- Overview ====================================================== -->
+	<div id="overview">
+		<div class="container marketing">
+			<!-- Three columns-->
+			<div class="row">
+
+				<!-- First -->
+				<div class="col-lg-4 col-centered text-center">
+					<img class="img-circle" src="img/Mail.png" alt="Mail" width="140" height="140">
+					<h2>Email</h2>
+					<p>Drop us an Email on what you would like shipped to your doorstep. We will process your request as soon as we can
+						and provide you with an affordable quote.</p>
+					</div>
+
+					<!-- Second -->
+					<div class="col-lg-4 col-centered text-center">
+						<img class="img-circle" src="img/Phone.png" alt="Phone" width="140" height="140">
+						<h2>Call</h2>
+						<p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
+					</div>
+
+					<!-- Third -->
+					<div class="col-lg-4 col-centered text-center">
+						<img class="img-circle" src="img/Home.png" alt="Home" width="140" height="140">
+						<h2>Home</h2>
+						<p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+					</div>
+				</div>
+			</div>
+
+
+		</body>
+		</html>
